@@ -11,6 +11,7 @@ import { Background } from "@/components/background";
 import Telegram from "@/components/icons/telegram";
 import { Button } from "@/components/ui/button";
 import { GithubMenuBadge } from "@/components/github-badge";
+import XformerlyTwitter from "@/components/icons/twitter";
 
 export const metadata = {
 	title: {
@@ -41,6 +42,9 @@ const navbar = (
 		chatLink="https://t.me/DevUtility"
 		chatIcon={<Telegram width={24} height={24} />}
 	>
+		<Link href="https://x.com/DevUtilityApp">
+			<XformerlyTwitter width={24} height={24}/>
+		</Link>
 		<GithubMenuBadge />
 		<Link href="/app">
 			<Button variant="default" size="sm" className="h-8">

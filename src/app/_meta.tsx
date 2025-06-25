@@ -27,16 +27,6 @@ export default {
 			toc: false,
 		},
 	},
-	// "self-hosting": {
-	// 	type: "page",
-	// 	title: "自托管",
-	// 	// hidden from main menu via overrides.css, nextra display:hidden otherwise breaks type:page
-	// },
-	// showcase: {
-	// 	type: "page",
-	// 	title: "展示",
-	// 	// hidden from main menu via overrides.css, nextra display:hidden otherwise breaks type:page
-	// },
 	faq: {
 		type: "page",
 		title: "FAQ",
@@ -44,7 +34,7 @@ export default {
 	},
 	support: {
 		type: "page",
-		title: "支持",
+		title: "Support",
 		display: "hidden",
 	},
 	// about: {

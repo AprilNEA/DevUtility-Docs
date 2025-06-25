@@ -13,6 +13,10 @@ const withNextra = nextra({
 
 const nextConfig: NextConfig = {
   assetPrefix: "/docs",
+	images:{
+		loader: "custom",
+		loaderFile: "./image-loader.ts",
+	},
 };
 
 export default withNextra(nextConfig);

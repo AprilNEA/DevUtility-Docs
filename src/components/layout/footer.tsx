@@ -40,66 +40,9 @@ const menuItems: {
 	// 	],
 	// },
 	{
-		heading: "集成",
+		heading: "Resources",
 		items: [
-			{
-				name: "AWS",
-				href: "/docs/sdk/python",
-			},
-			{
-				name: "DMIT",
-				href: "/docs/sdk/typescript/guide",
-			},
-			// {
-			// 	name: "OpenAI SDK",
-			// 	href: "/docs/integrations/openai/get-started",
-			// },
-			// {
-			// 	name: "Langchain",
-			// 	href: "/docs/integrations/langchain/tracing",
-			// },
-			// {
-			// 	name: "Llama-Index",
-			// 	href: "/docs/integrations/llama-index/get-started",
-			// },
-			// {
-			// 	name: "Litellm",
-			// 	href: "/docs/integrations/litellm",
-			// },
-			// {
-			// 	name: "Dify",
-			// 	href: "/docs/integrations/dify",
-			// },
-			// {
-			// 	name: "Flowise",
-			// 	href: "/docs/integrations/flowise",
-			// },
-			// {
-			// 	name: "Langflow",
-			// 	href: "/docs/integrations/langflow",
-			// },
-			// {
-			// 	name: "Vercel AI SDK",
-			// 	href: "/docs/integrations/vercel-ai-sdk",
-			// },
-			// {
-			// 	name: "Instructor",
-			// 	href: "/docs/integrations/instructor",
-			// },
-			// {
-			// 	name: "Mirascope",
-			// 	href: "/docs/integrations/mirascope",
-			// },
-			// {
-			// 	name: "API",
-			// 	href: "/docs/api",
-			// },
-		],
-	},
-	{
-		heading: "资源",
-		items: [
-			{ name: "文档", href: "/docs" },
+			{ name: "App", href: "/docs" },
 			// {
 			// 	name: "Interactive Demo",
 			// 	href: "/demo",
@@ -108,14 +51,14 @@ const menuItems: {
 			// 	name: "Video demo (10 min)",
 			// 	href: "/watch-demo",
 			// },
-			// {
-			// 	name: "Changelog",
-			// 	href: "/changelog",
-			// },
-			// {
-			// 	name: "Roadmap",
-			// 	href: "/docs/roadmap",
-			// },
+			{
+				name: "Changelog",
+				href: "/changelog",
+			},
+			{
+				name: "Roadmap",
+				href: "/docs/roadmap",
+			},
 			// {
 			// 	name: "Pricing",
 			// 	href: "/pricing",
@@ -128,57 +71,35 @@ const menuItems: {
 			// 	name: "Self-hosting",
 			// 	href: "/self-hosting",
 			// },
-			// {
-			// 	name: "Open Source",
-			// 	href: "/docs/open-source",
-			// },
-			// { name: "Why Langfuse?", href: "/why" },
-			// {
-			// 	name: "Status",
-			// 	href: "https://status.langfuse.com",
-			// },
+			{
+				name: "Open Source",
+				href: "/docs/open-source",
+			},
 		],
 	},
 	{
-		heading: "关于",
+		heading: "About",
 		items: [
 			{ name: "博客", href: "/blog" },
-			// { name: "职业", href: "/careers", notificationCount: 4 },
 			{
-				name: "关于我们",
+				name: "About us",
 				href: "/about",
 			},
-			{ name: "支持", href: "/support" },
-			// {
-			// 	name: "Schedule Demo",
-			// 	href: "/schedule-demo",
-			// },
-			// {
-			// 	name: "OSS Friends",
-			// 	href: "/oss-friends",
-			// },
-			// {
-			// 	name: "Twitter",
-			// 	href: "https://x.com/langfuse",
-			// },
-			// {
-			// 	name: "LinkedIn",
-			// 	href: "https://www.linkedin.com/company/langfuse/",
-			// },
+			{ name: "Support", href: "/support" },
 		],
 	},
 
 	{
-		heading: "法律",
+		heading: "Legal",
 		items: [
-			{ name: "安全", href: "/security" },
-			{ name: "免责声明", href: "/imprint" },
+			{ name: "Security", href: "/security" },
+			{ name: "Imprint", href: "/imprint" },
 			{
-				name: "条款",
+				name: "Terms",
 				href: "/terms",
 			},
 			{
-				name: "隐私政策",
+				name: "Privacy Policy",
 				href: "/privacy",
 			},
 		],
