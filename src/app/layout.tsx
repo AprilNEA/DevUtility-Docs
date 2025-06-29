@@ -46,7 +46,7 @@ const navbar = (
 			<XformerlyTwitter width={24} height={24}/>
 		</Link>
 		<GithubMenuBadge />
-		<Link href="/app">
+		<Link href="/app/">
 			<Button variant="default" size="sm" className="h-8">
 				Try Online
 			</Button>
