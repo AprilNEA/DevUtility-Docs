@@ -43,22 +43,25 @@ const navbar = (
 		chatIcon={<Telegram width={24} height={24} />}
 	>
 		<Link href="https://x.com/DevUtilityApp">
-			<XformerlyTwitter width={24} height={24}/>
+			<XformerlyTwitter width={24} height={24} />
 		</Link>
 		<GithubMenuBadge />
-		<Link href="/app/">
+		<Link href="https://app.utility.dev" target="_blank">
 			<Button variant="default" size="sm" className="h-8">
 				Try Online
 			</Button>
 		</Link>
 	</Navbar>
 );
+
 const footer = <Footer />;
 const search = <Search />;
 
 export default async function RootLayout({
 	children,
-}: { children: React.ReactNode }) {
+}: {
+	children: React.ReactNode;
+}) {
 	return (
 		<html
 			// Not required, but good for SEO
